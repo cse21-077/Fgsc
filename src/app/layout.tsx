@@ -4,8 +4,8 @@ import './globals.css'
 
 
 export const metadata: Metadata = {
-  title: 'Attio',
-  description: 'CRM platform for conversion',
+  title: 'FGSCF',
+  description: 'Future GEn Supply Chaim Forum website',
 }
 
 const inter = Inter({subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "700"]})
