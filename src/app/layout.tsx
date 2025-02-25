@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'FGSCF',
-  description: 'Future GEn Supply Chaim Forum website',
+  description: 'Future GEn Supply Chaim Forum website landing page',
 }
 
 const inter = Inter({subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "700"]})
