@@ -4,7 +4,7 @@ import MainButton from "../common/MainButton";
 import { cn } from "@/lib/utils";
 import { gilroyBold } from "@/lib/utils";
 import { HeroGlobeModal } from "../modals/HeroYoutubeModal";
-
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -21,20 +21,24 @@ function HeroSection() {
         </div>
 
         <p className="mb-8 text-[22px] text-center text-[#31373D]">
-             Empowering the Next Generation of Supply Chain Leaders in Africa
+          Empowering the Next Generation of Supply Chain Leaders in Africa
         </p>
 
         <div className="flex gap-[12px] justify-center">
-          <MainButton
-            text="Register Now"
-            size="small"
-            className="bg-customBlue border-none rounded-[12px]"
-          />
-          <MainButton
-            text="Become a Sponsor"
-            size="small"
-            className="rounded-[12px] border-[1px] border-[#EDEEF0] bg-white hover:bg-white text-[#31373D]"
-          />
+          <Link href="/registration-form">
+            <MainButton
+              text="Register Now"
+              size="small"
+              className="bg-customBlue border-none rounded-[12px]"
+            />
+          </Link>
+          <a href="https://wa.me/+26771902231" target="_blank" rel="noopener noreferrer">
+            <MainButton
+              text="Become a Sponsor"
+              size="small"
+              className="rounded-[12px] border-[1px] border-[#EDEEF0] bg-white hover:bg-white text-[#31373D]"
+            />
+          </a>
         </div>
 
         <div className="flex w-full justify-center">

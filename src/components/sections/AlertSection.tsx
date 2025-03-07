@@ -18,7 +18,7 @@ function AlertSection() {
       <div className="inline-flex gap-3 text-white font-semibold text-[12px] md:text-[16px]">
         <div>
           🥳Register for the FutureGen Supply Chain Forum{" "}
-          <Link href="/" className="underline underline-offset-4 pl-3">
+          <Link href="/registration-form" className="underline underline-offset-4 pl-3">
             Register Now
           </Link>
         </div>
